@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+
+    <div class="container">
+        <div class="header">
+            <div class="header_container_logo">
+                <img class="img_logo" src="./KARTINKI/logo.png" >
+                <span class="name_logo kelly-slab-regular">Белая нота</span>
+            </div>
+            <nav class="header_container_menu">
+                <ul class="menu">
+                    <li><a href="../(1) home page/index.html" class="kelly-slab-regular spisok">Главная</a></li>
+                    <li><a href="../(2) about us/index.html" class="kelly-slab-regular spisok">О нас</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <li><a href="#" class="kelly-slab-regular spisok">Товар</a></li>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../(3) guitar/index.html" class="kelly-slab-regular">Гитары</a>
+                            <a href="../(4) drums percussion/index.html" class="kelly-slab-regular">Барабаны ударные</a>
+                            <a href="../(5) synthesizer/index.html" class="kelly-slab-regular">Синтезаторы</a>
+                            <a href="../(6) cello/index.html" class="kelly-slab-regular">Виолончели</a>
+                            <a href="../(7) flute/index.html" class="kelly-slab-regular">Флейты</a>
+                        </div>
+                    </div> 
+                    <li><a href="../(9) contacts/index.html" class="kelly-slab-regular spisok">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="main">
+
+            <input class="input" type="radio" name="a" id="cr-1" checked>
+            <label for="cr-1" style="--hue: 32"></label>
+            <div class="slaid" style="--z: 4">
+              <img src="./KARTINKI/slide1.png" alt="Snow on leafs">
+            </div>
+          
+            <input class="input" type="radio" name="a" id="cr-2">
+            <label for="cr-2" style="--hue: 82"></label>
+            <div class="slaid" style="--z: 3">
+              <img src="./KARTINKI/slide2.jpg" alt="Trees">
+            </div>
+          
+            <input class="input" type="radio" name="a" id="cr-3">
+            <label for="cr-3" style="--hue: 40"></label>
+            <div class="slaid" style="--z: 2">
+              <img src="./KARTINKI/slide3.png" alt="Mountains and houses">
+            </div>
+          
+        </div>
+    
+    
+        <div class="cocnnect-with-us">
+            <div class="about-us_container">
+                <span class="about-us kelly-slab-regular">Связаться с нами</span>
+                <hr class="hr">
+            </div>
+            <div class="container_contact">
+                <div class="container_sms">
+                    <h1 class="whitenote_text kelly-slab-regular">Оставьте нам свое</h1>
+                    <h1 class="whitenote-text kelly-slab-regular">Сообщение</h1>
+                    <img class="whitenote__img" src="./KARTINKI/rows-of-electric-guitars-in-music-store-nobody-768x513.jpg">
+                </div>
+                <div class="container_input">
+                    <form>
+                    <h2 class="name kelly-slab-regular">Имя</h2>
+                    <input type="text" placeholder="Ваше имя" class="input_type" id="subscribeToSendInput" required/>
+
+                    <h2 class="name kelly-slab-regular">Телефон</h2>
+                    <input type="text" placeholder="Ваш телефон" class="input_type" id="subscribeToSendInput" required>
+
+                    <h2 class="name kelly-slab-regular">Почта</h2>
+                    <input type="email" placeholder="Ваша электронная почта" class="input_type" id="subscribeToSendInput" required>
+                    
+                    <h2 class="name kelly-slab-regular">Сообщение</h2>
+                    <input type="text" placeholder="Ваш сообщение" class="input_name" id="subscribeToSendInput">
+                    
+                    <div><input class="knopka_send kelly-slab-regular" type="submit" value="Отправить"></div>  
+                    </form>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="mailing">
+            <hr class="location__hr">
+            <div class="mailing_">
+                <p class="mailing_text kelly-slab-regular">Подпишитесь на нашу</p>
+                <p class="mailing-text kelly-slab-regular">Новостную рассылку</p>
+                <div class="knopka">
+                    <input tupe="text" placeholder="Отправьте свою электронную почту" oninvalid="setCustomValidity('Введите электронную почту')" oninput="setCustomValidity('')" class="pushbutton" id="subscribeInput"></input>
+                    <button class="push_button" id="subscribeAction"><h1 class="push_button_text kelly-slab-regular">Подписаться</h1></button>
+                </div>
+            </div>
+            <hr class="location__hr">
+        </div>
+
+        <div class="footer">
+            <div class="fo_im"><img class="footer_img" src="./KARTINKI/bottom-bg.webp"></div>
+            <hr class="footer_hr">
+            <div class="footer_information">
+                <div class="whitenote_welcome">
+                    <div class="logotip">
+                        <img class="footer_img_logo" src="./KARTINKI/logo.png" >
+                        <span class="footer_name_logo kelly-slab-regular">Белая нота</span>
+                    </div>
+                    <div class="footer_about"><span class="welcome_text kelly-slab-regular">Добро пожаловать в мир музыки и звука! 
+                        Мы рады предложить вам широкий ассортимент музыкальных инструментов 
+                        для любого стиля и уровня мастерства. 
+                        Наши инструменты были тщательно отобраны, чтобы удовлетворить потребности 
+                        как начинающих музыкантов, так и профессионалов.</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://www.facebook.com/login/device-based/regular/login/?_rdc=1&_rdr" class="network_img"><img src="./KARTINKI/icons8-логотип-facebook-100.png" class="network"></a>
+                        <a href="https://www.instagram.com/accounts/login/"><img src="./KARTINKI/icons8-instagram-100 (1).png" class="network"></a>
+                        <a href="https://twitter.com/i/flow/login"><img src="./KARTINKI/icons8-логотип-twitter-100.png" class="network"></a>
+                        <a href="https://web.telegram.org/a/"><img src="./KARTINKI/icons8-логотип-telegram-100.png" class="network"></a>
+                    </div>
+                </div>
+    
+                <div class="whitenote_links">
+                    <span class="footer_name_logo kelly-slab-regular">Информация</span>
+                        <ul class="footer_list">
+                            <li class="list_infa"><a class="list_infa_text kelly-slab-regular" href="../(1) home page/index.html">Главная</a></li>
+                            <li class="list_infa"><a class="list_infa_text kelly-slab-regular" href="../(2) about us/index.html">О нас</a></li>
+                            <li class="list_infa"><a class="list_infa_text kelly-slab-regular" href="../(9) contacts/index.html">Контакты</a></li>
+                            <li class="list_infa"><a class="list_infa_text kelly-slab-regular" href="#">Товары</a></li>
+                        </ul>
+                </div>
+    
+                <div class="whitenote_links">
+                    <span class="footer_name_logo kelly-slab-regular">Наш магазин</span>
+                    <nav class="footer_text">
+                        <ul class="footer_list">
+                            <li class="list_infa"><img class="img_list" src="./KARTINKI/icons8-location-24.png"><span class="important kelly-slab-regular">Литейный просп., 28, Санкт-Петербург, Россия</span></li>
+                            <li class="list_infa"><img class="img_list" src="./KARTINKI/icons8-телефон-50.png"><span class="important kelly-slab-regular">+7 (495) 173-55-67</span></li>
+                            <li class="list_infa"><img class="img_list" src="./KARTINKI/icons8-clock-24.png"><span class="important kelly-slab-regular">Мы открыты с 10:00 утра до 20:00 вечера каждый день, кроме воскресенья.</span></li>
+                            <li class="list_infa"><img class="img_list" src="./KARTINKI/icons8-новый-пост-48.png"><span class="important kelly-slab-regular">whitenote@gmail.com</span></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="name.js"></script>
+</body>
+</html>
